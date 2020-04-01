@@ -10,9 +10,10 @@ header, main, section, div, p {
   box-sizing: inherit;
   font-size: inherit;
   font-family: inherit;
+  color: inherit;
 }
 
-header, section, .main-image {
+header, section, .hero {
   margin: 0 auto;
 }
 
@@ -31,7 +32,7 @@ img {
   display: block;
 }
 
-section, .main-image {
+section, .hero {
   width: 1200px;
 }
 

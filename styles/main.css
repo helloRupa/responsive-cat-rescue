@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Quicksand;
+  color: #2c2c30;
+}
+
+header, main, section, div, p {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+header, section, .main-image {
+  margin: 0 auto;
+}
+
+header {
+  width: 1200px;
+  height: auto;
+  padding: 20px;
+}
+
+section {
+  padding: 20px 35px;
+  overflow: auto;
+}
+
+img {
+  display: block;
+}
+
+section, .main-image {
+  width: 1200px;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0;
+  vertical-align: top;
+  margin-top: 15px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.values {
+  width: 1060px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.single-value {
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-color: #efefef;
+  margin: 0 15px;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.single-value p {
+  text-align: justify;
+}
+
+.cats {
+  background-color: #def4ff;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.single-cat {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 550px;
+  background-color: #fff;
+  margin: 37px;
+  border-radius: 7px;
+}
+
+.single-cat img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.description {
+  padding: 10px 20px;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  margin: 20px auto;
+  padding: 10px 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
